@@ -1,0 +1,1 @@
+Esta carpeta se usará para almacenar los recursos que se necesiten para el proyecto. 
