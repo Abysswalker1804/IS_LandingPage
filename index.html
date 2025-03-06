@@ -1,30 +1,37 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    <link rel="stylesheet" href="./main.css">
+    <title>SITIO WEB</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="nav_main">
-        <img src="./resources/Logo.svg" class="nav_logo">
-        <h3 class="nav_name">JDAT</h3>
-        <ul class="nav_links">
-            <li><a href="about_us.html" class="nav_button">Sobre Nosotros</a></li>
-            <li><a href="equipo.html" class="nav_button">Nuestro Equipo</a></li>
-            <li><a href="comentarios.html" class="nav_button">Comentarios</a></li>
-            <li><a href="faq.html" class="nav_button">FAQ</a></li>
-        </ul>
-    </nav>
 
+    <div class="header33">
+        <img src="img/Logo.svg">
+        <h1>JDTA</h1>
+        <div class="button-container">
+            <a href="principios.html">
+                <button>QUIENES SOMOS</button>
+                </a>
+                <a href="equipo.html">
+            <button>NUESTRO EQUIPO</button>
+        </a>
+            <a href="preguntas.html">
+                <button>PREGUNTAS FRECUENTES</button>
+                </a>
+            <a href="comentarios.html">
+            <button>COMENTARIOS</button>
+        </a>
+        </div>
+    </div>
+    <hr class="line">
 
     <div class="subtitle">
         <h2>“Colaboración y confianza,
             <br> el camino hacia el éxito ágil.” </br></h2>
     </div>
 
-    <div class="h1-container">
+    <div class="contain123">
         <h1>
         <p>
          En JDTA, transformamos tus ideas en tecnología.
@@ -36,14 +43,7 @@
          al siguiente nivel.
         </h1>
         </p>
-        <img src="./resources/img.svg">
+        <img src="img.svg">
     </div>
-
-    <script>
-        function toggleMenu() {
-            const navLinks = document.querySelector('.nav_links');
-            navLinks.classList.toggle('active');
-        }
-    </script>
 </body>
 </html>
