@@ -9,7 +9,8 @@
 <body>
     <nav class="nav_main">
         <img src="./resources/Logo.svg" class="nav_logo">
-        <h3>JDAT</h3>
+        <h3 class="nav_name">JDAT</h3>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         <ul class="nav_links">
             <li><a href="index.html" class="nav_button">Inicio</a></li>
             <li><a href="about_us.html" class="nav_button">Sobre Nosotros</a></li>
@@ -17,6 +18,29 @@
             <li><a href="faq.html" class="nav_button">FAQ</a></li>
         </ul>
     </nav>
-    
+
+        <div class="coment">
+            <h1 class="conte">Tecnologías Innovadoras S.A.</h1>
+            <h2 class="description">Nuestra colaboración con esta organización ha sido sobresaliente. Nos ayudaron a resolver varios problemas técnicos de manera rápida y eficiente. El equipo fue extremadamente profesional y siempre dispuesto a ofrecer soporte personalizado. Estamos muy satisfechos con los resultados y definitivamente continuaremos trabajando juntos en futuros proyectos. ¡Altamente recomendados!</h2>
+        </div>
+
+        <div class="coment">
+            <h1 class="conte">NORIA</h1>
+            <h2  class="description">La experiencia con esta organización ha sido excelente. Su equipo nos proporcionó un apoyo invaluable en la optimización de nuestras bases de datos, mejorando significativamente el rendimiento de nuestros sistemas. Su profesionalismo y conocimiento nos dieron mucha confianza. Estamos muy contentos con los resultados y no dudaremos en volver a contar con sus servicios. ¡Gracias por su gran trabajo!</h2>
+        </div>
+        <div class="coment">
+            <h1 class="conte">InnovApps</h1>
+            <h2  class="description">Nuestra experiencia con esta organización ha sido excelente. Desarrollaron una aplicación de escritorio personalizada que ha mejorado significativamente nuestras operaciones diarias. El equipo mostró un alto nivel de profesionalismo y estuvo disponible para resolver cualquier duda durante todo el proceso. La aplicación es intuitiva, eficiente y ha cumplido con todas nuestras expectativas. Estamos muy contentos con los resultados y planeamos seguir trabajando juntos en futuros proyectos. ¡Gracias por su gran trabajo!</h2>
+        </div>
+
+
+
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav_links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>

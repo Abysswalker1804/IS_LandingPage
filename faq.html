@@ -9,7 +9,8 @@
 <body>
     <nav class="nav_main">
         <img src="./resources/Logo.svg" class="nav_logo">
-        <h3>JDAT</h3>
+        <h3 class="nav_name">JDAT</h3>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         <ul class="nav_links">
             <li><a href="index.html" class="nav_button">Inicio</a></li>
             <li><a href="about_us.html" class="nav_button">Sobre Nosotros</a></li>
@@ -18,5 +19,13 @@
         </ul>
     </nav>
 
+
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav_links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>

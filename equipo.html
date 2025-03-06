@@ -9,7 +9,8 @@
 <body>
     <nav class="nav_main">
         <img src="./resources/Logo.svg" class="nav_logo">
-        <h3>JDAT</h3>
+        <h3 class="nav_name">JDAT</h3>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         <ul class="nav_links">
             <li><a href="index.html" class="nav_button">Inicio</a></li>
             <li><a href="about_us.html" class="nav_button">Sobre Nosotros</a></li>
@@ -18,5 +19,44 @@
         </ul>
     </nav>
 
+    <header>
+        <h1>Conoce a Nuestro Equipo de Desarrollo</h1>
+        <p>Somos un equipo apasionado y dedicado a crear soluciones tecnológicas innovadoras y eficientes.</p>
+    </header>
+
+    <section id="equipo">
+        <article class="integrante">
+            <h2>Experto en Bases de Datos - Tadeo Palma</h2>
+            <p>Es el encargado de diseñar, implementar y mantener bases de datos robustas y eficientes. Su experiencia asegura la integridad y seguridad de la información.</p>
+        </article>
+
+        <article class="integrante">
+            <h2>Experta en Diseño Web - Jacqueline Jínez</h2>
+            <p>Se especializa en crear interfaces atractivas y amigables. Su creatividad y atención al detalle garantizan una experiencia de usuario excepcional.</p>
+        </article>
+
+        <article class="integrante">
+            <h2>Experto en Aplicaciones de Escritorio - Diego Vázquez</h2>
+            <p>Desarrolla aplicaciones de escritorio potentes y eficientes, asegurándose de que cumplan con las necesidades específicas de nuestros clientes.</p>
+        </article>
+
+        <article class="integrante">
+            <h2>Experta en Aplicaciones Móviles - Alexa Tahuilan</h2>
+            <p>Diseña y programa aplicaciones móviles intuitivas y funcionales, ofreciendo soluciones adaptadas a dispositivos iOS y Android.</p>
+        </article>
+    </section>
+
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <p>TEL. 461-3182918</p>
+        <p>CORREO serviciosweb@gmai.com</p>
+    </section>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav_links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
