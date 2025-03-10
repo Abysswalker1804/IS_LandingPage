@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+     background-color: white;
+}
+
+.menu {
+    position: fixed;
+    background: linear-gradient( #110551, rgb(0, 0, 0));
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    top: 0%;
+    z-index: 1000;
+}
+
+.menu h1{
+    color: white;
+    margin-right: 5%;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu button {
+    background-color: transparent;
+    margin: 0 15px;
+    color: rgb(255, 255, 255);
+    border: transparent;
+    align-items: center;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.menu button:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: transparent;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+.menu img{
+    width: 10%;
+    filter: invert(1);
+}
+
+.container1 {
+    justify-content: center;
+    gap: 2%;
+    display: flex;
+    margin: 2% auto;
+    padding: 0 5%;
+}
+
+.card1 {
+    background:linear-gradient(rgb(40, 18, 40),black);
+    color: white;
+    padding: 5%;
+    border-radius: 12px;
+    text-align: center;
+    width: 30%;
+    margin: 2%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+}
+
+.card1 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    text-decoration:underline;
+}
+
+.card1 p {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-size: 120%;
+}
+
+.principio1 {
+    background: linear-gradient(rgb(152, 73, 86), black);
+    color: #fff;            /* Texto blanco */
+    flex: 1 1 200px;        /* Se ajusta para que cada columna tenga un ancho mínimo */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    max-width: 250%;    
+}
+
+.principio1:hover {
+    transform: scale(1.05);
+}
+
+.principio1 h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1%;
+    
+}
+
+.principio1 p {
+    font-size: 150%;
+    line-height: 1.4;
+    margin-top: 2%;
+}
+
+.header1{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+}
+
+
+.header2{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.container2{
+    justify-content: center;
+    gap: 2%;
+    display: flex;
+    margin: 2% auto;
+    padding: 0 5%;
+}

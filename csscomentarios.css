@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+background-color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    position: fixed;
+    background: linear-gradient( #110551, rgb(0, 0, 0));
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    top: 0%;
+    z-index: 1000;
+}
+
+.menu h1{
+    color: white;
+    margin-right: 5%;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu button {
+    background-color: transparent;
+    margin: 0 15px;
+    color: rgb(255, 255, 255);
+    border: transparent;
+    align-items: center;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.menu button:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: transparent;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+.menu img{
+    width: 10%;
+    filter: invert(1);
+}
+
+.marg{
+    margin-top: 10%;
+}
+
+.coment {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    background: linear-gradient(rgb(0, 0, 0), rgb(5, 5, 51));
+    border: 2%;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.conte {
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.description {
+    font-size: 18px;
+    text-align: justify;
+    
+}
+

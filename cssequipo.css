@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+background-color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    position: fixed;
+    background: linear-gradient( #110551, rgb(0, 0, 0));
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    top: 0%;
+    z-index: 1000;
+}
+
+.menu h1{
+    color: white;
+    margin-right: 5%;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu button {
+    background-color: transparent;
+    margin: 0 15px;
+    color: rgb(255, 255, 255);
+    border: transparent;
+    align-items: center;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.menu button:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: transparent;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+.menu img{
+    width: 10%;
+    filter: invert(1);
+}
+
+.inicio{
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#equipo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.integrante {
+    background:linear-gradient(rgb(5, 22, 55),black);
+    padding: 20px;
+    border-radius: 12px;
+    border: 3%;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.integrante img{
+    width: 53%;
+    height: 40%;
+}
+
+.integrante:hover {
+    transform: scale(1.05);
+}
+
+.integrante h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.integrante p {
+    font-size: 1rem;
+    color: white;
+}
+
+
+.inicio h1{
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+}
+
+.inicio h2{
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+}
+

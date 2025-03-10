@@ -1,65 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipo</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="header33">
-        <img src="img/Logo.svg" alt="Logo">
-        <h1 class="Comentarios">JDTA</h1>
-        <div class="button-container1">
-          <a href="index.html"><button>INICIO</button></a>
-          <a href="principios.html">
+    <link rel="stylesheet" href="cssequipo.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    
+<boody>
+    <nav class="menu">
+        <img src="Logo.svg">
+        <h1>JDTA</h1>
+        <a href="index.html">
+            <button>INICIO</button>
+            </a>
+        <a href="principios.html">
             <button>QUIENES SOMOS</button>
             </a>
-          <a href="preguntas.html"><button>PREGUNTAS FRECUENTES</button></a>
-          <a href="comentarios.html">
-          <button>COMENTARIOS</button>
-          </a>
-        </div>
-      </div>
-      <hr class="line">
-    <header>
-        <h1>Conoce a Nuestro Equipo de Desarrollo</h1>
-        <p>Somos un equipo apasionado y dedicado a crear soluciones tecnológicas innovadoras y eficientes.</p>
-    </header>
+        <a href="preguntas.html">
+            <button>PREGUNTAS FRECUENTES</button>
+            </a>
+        <a href="comentarios.html">
+        <button>COMENTARIOS</button>
+    </a>
+    </nav>
+    <div class="inicio">
+    <h1>CONOCE A NUESTRO EQUIPO DE DESARROLLO</h1>
+    <H2>Somos un equipo apasionado y dedicado a crear soluciones tecnologías innovadoras y eficientes</H2>
+    </div>
 
     <section id="equipo">
         <article class="integrante">
+            <img src="integrante4.jpg">
             <h2>Experto en Bases de Datos - Tadeo Palma</h2>
             <p>Es el encargado de diseñar, implementar y mantener bases de datos robustas y eficientes. Su experiencia asegura la integridad y seguridad de la información.</p>
+            <hr>
+            <h2>"En mis ratos libres acostumbro a dedicar mi tiempo en proyectos personales tanto de programación como de manualidades".</h2>
         </article>
 
         <article class="integrante">
+            <img src="integrante1.jpg">
             <h2>Experta en Diseño Web - Jacqueline Jínez</h2>
+            
             <p>Se especializa en crear interfaces atractivas y amigables. Su creatividad y atención al detalle garantizan una experiencia de usuario excepcional.</p>
+            <hr>
+            <h2>"Me gusta escuchar música en mi tiempo libre, jugar videojuegos o leer algún buen libro." </h2>
+        
         </article>
 
         <article class="integrante">
+            <img src="integrante2.jpg.png">
             <h2>Experto en Aplicaciones de Escritorio - Diego Vázquez</h2>
             <p>Desarrolla aplicaciones de escritorio potentes y eficientes, asegurándose de que cumplan con las necesidades específicas de nuestros clientes.</p>
+            <hr>
+            <h2>"Me gusta practicar deportes, como el básquetbol y el béisbol. Otro de mis hobbies favoritos es escuchar música y también practicarla."
+
+            </h2>
         </article>
 
         <article class="integrante">
+            <img src="integrante3.jpg">
             <h2>Experta en Aplicaciones Móviles - Alexa Tahuilan</h2>
             <p>Diseña y programa aplicaciones móviles intuitivas y funcionales, ofreciendo soluciones adaptadas a dispositivos iOS y Android.</p>
+            <hr>
+            <h2> “Como pasatiempo disfruto de actividades al aire libre que me permitan explorar nuevas ideas y desafiar mi creatividad.”</h2>
         </article>
     </section>
-
-    <section class="contacto">
-        <h2>Contacto</h2>
-        <p>TEL. 461-3182918</p>
-        <p>CORREO serviciosweb@gmai.com</p>
-    </section>
-
-    <script>
-        function toggleMenu() {
-            const navLinks = document.querySelector('.nav_links');
-            navLinks.classList.toggle('active');
-        }
-    </script>
-</body>
-</html>
+</div>
+</boody>
